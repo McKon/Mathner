@@ -5,6 +5,8 @@
 
 #include <glad/glad.h>
 
+#include "Input.h"
+
 #include <chrono>
 
 
@@ -65,10 +67,9 @@ namespace Mathner {
 //			MN_CORE_INFO("Time elapsed this frame: {0}", duration.count());
 			last = current;
 
-
 			for (Layer* layer : m_LayerStack)
 				layer->OnUpdate();
-			
+
 			m_Window->OnUpdate();
 		}
 

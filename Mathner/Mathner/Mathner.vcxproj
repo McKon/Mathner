@@ -161,11 +161,15 @@
     <ClInclude Include="src\Mathner\Events\KeyEvents.h" />
     <ClInclude Include="src\Mathner\Events\MouseEvents.h" />
     <ClInclude Include="src\Mathner\ImGui\ImGuiLayer.h" />
+    <ClInclude Include="src\Mathner\Input.h" />
+    <ClInclude Include="src\Mathner\KeyCodes.h" />
     <ClInclude Include="src\Mathner\Layer.h" />
     <ClInclude Include="src\Mathner\LayerStack.h" />
     <ClInclude Include="src\Mathner\Log.h" />
+    <ClInclude Include="src\Mathner\MouseButtonCodes.h" />
     <ClInclude Include="src\Mathner\Window.h" />
     <ClInclude Include="src\Platform\OpenGL\ImGuiOpenGLRenderer.h" />
+    <ClInclude Include="src\Platform\Windows\WindowsInput.h" />
     <ClInclude Include="src\Platform\Windows\WindowsWindow.h" />
     <ClInclude Include="src\mnpch.h" />
   </ItemGroup>
@@ -176,6 +180,7 @@
     <ClCompile Include="src\Mathner\LayerStack.cpp" />
     <ClCompile Include="src\Mathner\Log.cpp" />
     <ClCompile Include="src\Platform\OpenGL\ImGuiOpenGLRenderer.cpp" />
+    <ClCompile Include="src\Platform\Windows\WindowsInput.cpp" />
     <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp" />
     <ClCompile Include="src\mnpch.cpp">
       <PrecompiledHeader>Create</PrecompiledHeader>

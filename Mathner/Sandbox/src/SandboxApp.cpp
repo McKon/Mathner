@@ -11,11 +11,13 @@ public:
 	void OnUpdate() override
 	{
 		MN_INFO("ExampleLayer::Update");
+		if (Mathner::Input::IsKeyPressed(MN_KEY_TAB))
+			MN_TRACE("Tab key is pressed");
 	}
 
 	void OnEvent(Mathner::Event& event) override
 	{
-		MN_TRACE("{0}", event);
+		//MN_TRACE("{0}", event);
 	}
 };
 
