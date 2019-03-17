@@ -7,3 +7,6 @@
 [submodule "Mathner/Mathner/vendor/imgui"]
 	path = Mathner/Mathner/vendor/imgui
 	url = https://github.com/McKon/imgui.git
+[submodule "Mathner/Mathner/vendor/glm"]
+	path = Mathner/Mathner/vendor/glm
+	url = https://github.com/g-truc/glm

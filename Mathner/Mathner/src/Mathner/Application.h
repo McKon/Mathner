@@ -7,6 +7,8 @@
 #include "Mathner/Events/Event.h"
 #include "Mathner/Events/ApplicationEvent.h"
 
+#include "Mathner/ImGui/ImGuiLayer.h"
+
 namespace Mathner {
 
 	class MATHNER_API Application
@@ -29,9 +31,10 @@ namespace Mathner {
 		bool OnWindowClose(WindowCloseEvent& e);
 
 		std::unique_ptr<Window> m_Window;
+		ImGuiLayer* m_ImGuiLayer;
 		bool m_IsRunning = true;
 		LayerStack m_LayerStack;
-
+		
 	private:
 		static Application* s_Instance;
 	};
