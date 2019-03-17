@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Mathner">
+      <UniqueIdentifier>{B44BB615-202B-35B1-2943-C08795A19B12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mathner\Events">
+      <UniqueIdentifier>{18451300-0413-0706-EDA6-772CD913E36A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mathner\ImGui">
+      <UniqueIdentifier>{DEB7FDE8-4A78-791F-13B3-C29C7F32BEFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{2AC788B4-1694-E3BF-3FAD-D1672BD9184E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\OpenGL">
+      <UniqueIdentifier>{1E7D2C1D-8A08-9AE1-9319-1DD6FF23F6E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Windows">
+      <UniqueIdentifier>{64FBD71A-50F4-F66C-7926-DCF1657ED678}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Mathner.h" />
+    <ClInclude Include="src\Mathner\Application.h">
+      <Filter>Mathner</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mathner\Core.h">
+      <Filter>Mathner</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mathner\EntryPoint.h">
+      <Filter>Mathner</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mathner\Events\ApplicationEvent.h">
+      <Filter>Mathner\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mathner\Events\Event.h">
+      <Filter>Mathner\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mathner\Events\KeyEvents.h">
+      <Filter>Mathner\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mathner\Events\MouseEvents.h">
+      <Filter>Mathner\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mathner\ImGui\ImGuiLayer.h">
+      <Filter>Mathner\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mathner\Layer.h">
+      <Filter>Mathner</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mathner\LayerStack.h">
+      <Filter>Mathner</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mathner\Log.h">
+      <Filter>Mathner</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mathner\Window.h">
+      <Filter>Mathner</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\OpenGL\ImGuiOpenGLRenderer.h">
+      <Filter>Platform\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\Windows\WindowsWindow.h">
+      <Filter>Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mnpch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Mathner\Application.cpp">
+      <Filter>Mathner</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mathner\ImGui\ImGuiLayer.cpp">
+      <Filter>Mathner\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mathner\Layer.cpp">
+      <Filter>Mathner</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mathner\LayerStack.cpp">
+      <Filter>Mathner</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mathner\Log.cpp">
+      <Filter>Mathner</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\OpenGL\ImGuiOpenGLRenderer.cpp">
+      <Filter>Platform\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp">
+      <Filter>Platform\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mnpch.cpp" />
+  </ItemGroup>
+</Project>

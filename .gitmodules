@@ -1,0 +1,9 @@
+[submodule "Mathner/Mathner/vendor/spdlog"]
+	path = Mathner/Mathner/vendor/spdlog
+	url = https://github.com/gabime/spdlog
+[submodule "Mathner/Mathner/vendor/GLFW"]
+	path = Mathner/Mathner/vendor/GLFW
+	url = https://github.com/McKon/glfw.git
+[submodule "Mathner/Mathner/vendor/imgui"]
+	path = Mathner/Mathner/vendor/imgui
+	url = https://github.com/McKon/imgui.git
